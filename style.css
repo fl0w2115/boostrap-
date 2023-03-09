@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 
 .check {
     font-family: 'Playfair Display', serif;
@@ -48,6 +50,8 @@ nav ul li a{
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
 }
 
 a.active, a:hover {
@@ -171,11 +175,36 @@ section.header{
     position: absolute;
     opacity: 0;
     transition: 0.5s;
+    font-family: 'Playfair Display', serif;
 }
 
 .flota-name:hover h3 {
     bottom: 47%;
     opacity: 1;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.contact-form {
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+}
+
+footer {
+    height: 50px;
+    background-color: lightskyblue;
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
 }
 
 @media(max-width:950px) {
